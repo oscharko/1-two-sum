@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["function twoSum(nums: number[], target: number): number[] | any {\n    let numsMap: number[] = [];\n\n    for (let p: number = 0; p < nums.length; p++) {\n        let currMapVal: number = numsMap[nums[p]];\n\n        if (currMapVal >= 0) {\n            return [currMapVal, p];\n        } else {\n            let numToFind: number = target - nums[p];\n            numsMap[numToFind] = p;\n        }\n    }\n    return null;\n};\n\nlet nums = [2, 7, 11, 15];\nlet target = 9;\n\nconsole.log(twoSum(nums, target));"],
+  "mappings": "AAAA,gBAAgB,OAAgB,SAAgC;AAC5D,MAAI,UAAoB;AAExB,WAAS,IAAY,GAAG,IAAI,MAAK,QAAQ,KAAK;AAC1C,QAAI,aAAqB,QAAQ,MAAK;AAEtC,QAAI,cAAc,GAAG;AACjB,aAAO,CAAC,YAAY;AAAA,WACjB;AACH,UAAI,YAAoB,UAAS,MAAK;AACtC,cAAQ,aAAa;AAAA;AAAA;AAG7B,SAAO;AAAA;AACV;AAED,IAAI,OAAO,CAAC,GAAG,GAAG,IAAI;AACtB,IAAI,SAAS;AAEb,QAAQ,IAAI,OAAO,MAAM;",
+  "names": []
+}
