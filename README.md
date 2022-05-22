@@ -17,5 +17,5 @@ You can return the answer in any order.
 
 [LeetCode](https://leetcode.com/submissions/detail/703947912/)
 
-[![Run on Repl.it](https://repl.it/badge/github/oscharko/LeetCode-1-Two-Sum)](https://repl.it/github/oscharko/LeetCode-1-Two-Sum)
+[![Run on Repl.it](https://repl.it/badge/github/oscharko/LeetCode-1-Two-Sum)](https://replit.com/@oscharko/LeetCode-1-Two-Sum)
 
